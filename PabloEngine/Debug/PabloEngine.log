@@ -1,0 +1,142 @@
+﻿  Application.cpp
+  The contents of <optional> are available only with C++17 or later.
+C:\dev\PabloEngine\PabloEngine\Input.h(147,7): error C2039: 'optional': is not a member of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\bitset(21): message : see declaration of 'std'
+C:\dev\PabloEngine\PabloEngine\Input.h(147,15): error C2143: syntax error: missing ';' before '<'
+C:\dev\PabloEngine\PabloEngine\Input.h(147,15): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\dev\PabloEngine\PabloEngine\Input.h(147,45): error C2238: unexpected token(s) preceding ';'
+C:\dev\PabloEngine\PabloEngine\Input.h(150,7): error C2039: 'optional': is not a member of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\bitset(21): message : see declaration of 'std'
+C:\dev\PabloEngine\PabloEngine\Input.h(150,15): error C2143: syntax error: missing ';' before '<'
+C:\dev\PabloEngine\PabloEngine\Input.h(150,15): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\dev\PabloEngine\PabloEngine\Input.h(150,32): error C2238: unexpected token(s) preceding ';'
+C:\dev\PabloEngine\PabloEngine\Input.h(170,7): error C2039: 'optional': is not a member of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\bitset(21): message : see declaration of 'std'
+C:\dev\PabloEngine\PabloEngine\Input.h(170,15): error C2143: syntax error: missing ';' before '<'
+C:\dev\PabloEngine\PabloEngine\Input.h(170,15): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\dev\PabloEngine\PabloEngine\Input.h(170,44): error C2238: unexpected token(s) preceding ';'
+C:\dev\PabloEngine\PabloEngine\Window.h(56,14): error C2039: 'optional': is not a member of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\bitset(21): message : see declaration of 'std'
+C:\dev\PabloEngine\PabloEngine\Window.h(56,22): error C2143: syntax error: missing ';' before '<'
+C:\dev\PabloEngine\PabloEngine\Window.h(56,22): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\dev\PabloEngine\PabloEngine\Window.h(56,45): error C2238: unexpected token(s) preceding ';'
+C:\dev\PabloEngine\PabloEngine\Application.h(26,7): error C2039: 'unique_ptr': is not a member of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\bitset(21): message : see declaration of 'std'
+C:\dev\PabloEngine\PabloEngine\Application.h(26,17): error C2143: syntax error: missing ';' before '<'
+C:\dev\PabloEngine\PabloEngine\Application.h(26,17): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\dev\PabloEngine\PabloEngine\Application.h(26,34): error C2238: unexpected token(s) preceding ';'
+C:\dev\PabloEngine\PabloEngine\Application.h(19,39): error C2065: 'm_Window': undeclared identifier
+C:\dev\PabloEngine\PabloEngine\Application.cpp(13,2): error C2065: 'm_Window': undeclared identifier
+C:\dev\PabloEngine\PabloEngine\Application.cpp(13,18): error C2039: 'unique_ptr': is not a member of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\bitset(21): message : see declaration of 'std'
+C:\dev\PabloEngine\PabloEngine\Application.cpp(13,28): error C2065: 'unique_ptr': undeclared identifier
+C:\dev\PabloEngine\PabloEngine\Application.cpp(13,29): error C2275: 'Window': illegal use of this type as an expression
+C:\dev\PabloEngine\PabloEngine\Window.h(23): message : see declaration of 'Window'
+C:\dev\PabloEngine\PabloEngine\Application.cpp(14,2): error C2065: 'm_Window': undeclared identifier
+C:\dev\PabloEngine\PabloEngine\Application.cpp(33,34): error C2039: 'ProcessMessages': is not a member of 'Window'
+C:\dev\PabloEngine\PabloEngine\Window.h(23): message : see declaration of 'Window'
+C:\dev\PabloEngine\PabloEngine\Application.cpp(33,6): error C3861: 'ProcessMessages': identifier not found
+  Input.cpp
+  The contents of <optional> are available only with C++17 or later.
+C:\dev\PabloEngine\PabloEngine\Input.h(147,7): error C2039: 'optional': is not a member of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\bitset(21): message : see declaration of 'std'
+C:\dev\PabloEngine\PabloEngine\Input.h(147,15): error C2143: syntax error: missing ';' before '<'
+C:\dev\PabloEngine\PabloEngine\Input.h(147,15): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\dev\PabloEngine\PabloEngine\Input.h(147,45): error C2238: unexpected token(s) preceding ';'
+C:\dev\PabloEngine\PabloEngine\Input.h(150,7): error C2039: 'optional': is not a member of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\bitset(21): message : see declaration of 'std'
+C:\dev\PabloEngine\PabloEngine\Input.h(150,15): error C2143: syntax error: missing ';' before '<'
+C:\dev\PabloEngine\PabloEngine\Input.h(150,15): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\dev\PabloEngine\PabloEngine\Input.h(150,32): error C2238: unexpected token(s) preceding ';'
+C:\dev\PabloEngine\PabloEngine\Input.h(170,7): error C2039: 'optional': is not a member of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\bitset(21): message : see declaration of 'std'
+C:\dev\PabloEngine\PabloEngine\Input.h(170,15): error C2143: syntax error: missing ';' before '<'
+C:\dev\PabloEngine\PabloEngine\Input.h(170,15): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\dev\PabloEngine\PabloEngine\Input.h(170,44): error C2238: unexpected token(s) preceding ';'
+C:\dev\PabloEngine\PabloEngine\Input.cpp(13,6): error C2039: 'optional': is not a member of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\bitset(21): message : see declaration of 'std'
+C:\dev\PabloEngine\PabloEngine\Input.cpp(13,14): error C2143: syntax error: missing ';' before '<'
+C:\dev\PabloEngine\PabloEngine\Input.cpp(13,14): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\dev\PabloEngine\PabloEngine\Input.cpp(13,49): error C2039: 'ReadKey': is not a member of 'Input'
+C:\dev\PabloEngine\PabloEngine\Input.h(7): message : see declaration of 'Input'
+C:\dev\PabloEngine\PabloEngine\Input.cpp(14,1): error C2143: syntax error: missing ';' before '{'
+C:\dev\PabloEngine\PabloEngine\Input.cpp(14,1): error C2447: '{': missing function header (old-style formal list?)
+C:\dev\PabloEngine\PabloEngine\Input.cpp(34,6): error C2039: 'optional': is not a member of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\bitset(21): message : see declaration of 'std'
+C:\dev\PabloEngine\PabloEngine\Input.cpp(34,14): error C2143: syntax error: missing ';' before '<'
+C:\dev\PabloEngine\PabloEngine\Input.cpp(34,14): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\dev\PabloEngine\PabloEngine\Input.cpp(34,14): error C2086: 'int optional': redefinition
+C:\dev\PabloEngine\PabloEngine\Input.cpp(13): message : see declaration of 'optional'
+C:\dev\PabloEngine\PabloEngine\Input.cpp(34,28): error C2039: 'ReadChar': is not a member of 'Input'
+C:\dev\PabloEngine\PabloEngine\Input.h(7): message : see declaration of 'Input'
+C:\dev\PabloEngine\PabloEngine\Input.cpp(35,1): error C2143: syntax error: missing ';' before '{'
+C:\dev\PabloEngine\PabloEngine\Input.cpp(35,1): error C2447: '{': missing function header (old-style formal list?)
+C:\dev\PabloEngine\PabloEngine\Input.cpp(138,6): error C2039: 'optional': is not a member of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\bitset(21): message : see declaration of 'std'
+C:\dev\PabloEngine\PabloEngine\Input.cpp(138,14): error C2143: syntax error: missing ';' before '<'
+C:\dev\PabloEngine\PabloEngine\Input.cpp(138,14): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\dev\PabloEngine\PabloEngine\Input.cpp(138,14): error C2086: 'int optional': redefinition
+C:\dev\PabloEngine\PabloEngine\Input.cpp(13): message : see declaration of 'optional'
+C:\dev\PabloEngine\PabloEngine\Input.cpp(138,46): error C2039: 'ReadMouse': is not a member of 'Input'
+C:\dev\PabloEngine\PabloEngine\Input.h(7): message : see declaration of 'Input'
+C:\dev\PabloEngine\PabloEngine\Input.cpp(139,1): error C2143: syntax error: missing ';' before '{'
+C:\dev\PabloEngine\PabloEngine\Input.cpp(139,1): error C2447: '{': missing function header (old-style formal list?)
+  Window.cpp
+  The contents of <optional> are available only with C++17 or later.
+C:\dev\PabloEngine\PabloEngine\Input.h(147,7): error C2039: 'optional': is not a member of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\bitset(21): message : see declaration of 'std'
+C:\dev\PabloEngine\PabloEngine\Input.h(147,15): error C2143: syntax error: missing ';' before '<'
+C:\dev\PabloEngine\PabloEngine\Input.h(147,15): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\dev\PabloEngine\PabloEngine\Input.h(147,45): error C2238: unexpected token(s) preceding ';'
+C:\dev\PabloEngine\PabloEngine\Input.h(150,7): error C2039: 'optional': is not a member of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\bitset(21): message : see declaration of 'std'
+C:\dev\PabloEngine\PabloEngine\Input.h(150,15): error C2143: syntax error: missing ';' before '<'
+C:\dev\PabloEngine\PabloEngine\Input.h(150,15): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\dev\PabloEngine\PabloEngine\Input.h(150,32): error C2238: unexpected token(s) preceding ';'
+C:\dev\PabloEngine\PabloEngine\Input.h(170,7): error C2039: 'optional': is not a member of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\bitset(21): message : see declaration of 'std'
+C:\dev\PabloEngine\PabloEngine\Input.h(170,15): error C2143: syntax error: missing ';' before '<'
+C:\dev\PabloEngine\PabloEngine\Input.h(170,15): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\dev\PabloEngine\PabloEngine\Input.h(170,44): error C2238: unexpected token(s) preceding ';'
+C:\dev\PabloEngine\PabloEngine\Window.h(56,14): error C2039: 'optional': is not a member of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\bitset(21): message : see declaration of 'std'
+C:\dev\PabloEngine\PabloEngine\Window.h(56,22): error C2143: syntax error: missing ';' before '<'
+C:\dev\PabloEngine\PabloEngine\Window.h(56,22): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\dev\PabloEngine\PabloEngine\Window.h(56,45): error C2238: unexpected token(s) preceding ';'
+C:\dev\PabloEngine\PabloEngine\Window.cpp(112,6): error C2039: 'optional': is not a member of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\bitset(21): message : see declaration of 'std'
+C:\dev\PabloEngine\PabloEngine\Window.cpp(112,14): error C2143: syntax error: missing ';' before '<'
+C:\dev\PabloEngine\PabloEngine\Window.cpp(112,14): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\dev\PabloEngine\PabloEngine\Window.cpp(112,28): error C2039: 'ProcessMessages': is not a member of 'Window'
+C:\dev\PabloEngine\PabloEngine\Window.h(23): message : see declaration of 'Window'
+C:\dev\PabloEngine\PabloEngine\Window.cpp(113,1): error C2143: syntax error: missing ';' before '{'
+C:\dev\PabloEngine\PabloEngine\Window.cpp(113,1): error C2447: '{': missing function header (old-style formal list?)
+  WinMain.cpp
+  The contents of <optional> are available only with C++17 or later.
+C:\dev\PabloEngine\PabloEngine\Input.h(147,7): error C2039: 'optional': is not a member of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\bitset(21): message : see declaration of 'std'
+C:\dev\PabloEngine\PabloEngine\Input.h(147,15): error C2143: syntax error: missing ';' before '<'
+C:\dev\PabloEngine\PabloEngine\Input.h(147,15): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\dev\PabloEngine\PabloEngine\Input.h(147,45): error C2238: unexpected token(s) preceding ';'
+C:\dev\PabloEngine\PabloEngine\Input.h(150,7): error C2039: 'optional': is not a member of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\bitset(21): message : see declaration of 'std'
+C:\dev\PabloEngine\PabloEngine\Input.h(150,15): error C2143: syntax error: missing ';' before '<'
+C:\dev\PabloEngine\PabloEngine\Input.h(150,15): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\dev\PabloEngine\PabloEngine\Input.h(150,32): error C2238: unexpected token(s) preceding ';'
+C:\dev\PabloEngine\PabloEngine\Input.h(170,7): error C2039: 'optional': is not a member of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\bitset(21): message : see declaration of 'std'
+C:\dev\PabloEngine\PabloEngine\Input.h(170,15): error C2143: syntax error: missing ';' before '<'
+C:\dev\PabloEngine\PabloEngine\Input.h(170,15): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\dev\PabloEngine\PabloEngine\Input.h(170,44): error C2238: unexpected token(s) preceding ';'
+C:\dev\PabloEngine\PabloEngine\Window.h(56,14): error C2039: 'optional': is not a member of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\bitset(21): message : see declaration of 'std'
+C:\dev\PabloEngine\PabloEngine\Window.h(56,22): error C2143: syntax error: missing ';' before '<'
+C:\dev\PabloEngine\PabloEngine\Window.h(56,22): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\dev\PabloEngine\PabloEngine\Window.h(56,45): error C2238: unexpected token(s) preceding ';'
+C:\dev\PabloEngine\PabloEngine\Application.h(26,7): error C2039: 'unique_ptr': is not a member of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\bitset(21): message : see declaration of 'std'
+C:\dev\PabloEngine\PabloEngine\Application.h(26,17): error C2143: syntax error: missing ';' before '<'
+C:\dev\PabloEngine\PabloEngine\Application.h(26,17): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\dev\PabloEngine\PabloEngine\Application.h(26,34): error C2238: unexpected token(s) preceding ';'
+C:\dev\PabloEngine\PabloEngine\Application.h(19,39): error C2065: 'm_Window': undeclared identifier
+  Generating Code...
