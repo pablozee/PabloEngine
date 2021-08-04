@@ -23,7 +23,7 @@ void Application::OnEvent(Event& event)
 {
 	EventDispatcher dispatcher(event);
 	dispatcher.Dispatch<WindowCloseEvent>(BIND_EVENT_FN(Application::OnWindowClose));
-
+	dispatcher.Dispatch<WindowResizeEvent>(BIND_EVENT_FN(Application::OnWindowResize));
 }
 
 int Application::Run()
@@ -42,5 +42,11 @@ int Application::Run()
 bool Application::OnWindowClose(WindowCloseEvent& event)
 {
 	m_Running = false;
+	return true;
+}
+
+bool Application::OnWindowResize(WindowResizeEvent& event)
+{
+	// TODO Call Renderer resize code here
 	return true;
 }

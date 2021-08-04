@@ -18,10 +18,10 @@ public:
 
 	inline Window& GetWindow() { return *m_Window; }
 
-
 private:
 	bool m_Running = true;
 	bool OnWindowClose(WindowCloseEvent& event);
+	bool OnWindowResize(WindowResizeEvent& event);
 
 	std::unique_ptr<Window> m_Window;
 	static Application* s_Instance;

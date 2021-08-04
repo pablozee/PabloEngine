@@ -49,6 +49,8 @@ public:
 
 	inline unsigned int GetWidth() const { return m_Data.Width; }
 	inline unsigned int GetHeight() const { return m_Data.Height; }
+	inline float AspectRatio() const { return static_cast<float>(m_Data.Width) / m_Data.Height; }
+
 
 	inline void SetEventCallback(const EventCallbackFn& callback) { m_Data.EventCallback = callback; }
 	void SetVSync(bool enabled);
