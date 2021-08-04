@@ -23,6 +23,15 @@ private:
 	bool OnWindowClose(WindowCloseEvent& event);
 	bool OnWindowResize(WindowResizeEvent& event);
 
+	void CalculateFrameStats();
+
+	GameTimer m_Timer;
 	std::unique_ptr<Window> m_Window;
 	static Application* s_Instance;
+
+	bool m_AppPaused	   = false;
+	bool m_Minimized	   = false;
+	bool m_Maximized	   = false;
+	bool m_Resizing		   = false;
+	bool m_FullScreenState = false;
 };
