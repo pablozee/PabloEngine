@@ -163,6 +163,7 @@
     <ClInclude Include="Input.h" />
     <ClInclude Include="Include\ThirdParty\d3dx12.h" />
     <ClInclude Include="Renderer\D3DShaders.h" />
+    <ClInclude Include="Renderer\Device.h" />
     <ClInclude Include="Renderer\Model.h" />
     <ClInclude Include="Renderer\Renderer.h" />
     <ClInclude Include="Renderer\Structures.h" />
@@ -173,6 +174,7 @@
     <ClCompile Include="Application.cpp" />
     <ClCompile Include="Input.cpp" />
     <ClCompile Include="Renderer\D3DShaders.cpp" />
+    <ClCompile Include="Renderer\Device.cpp" />
     <ClCompile Include="Renderer\Renderer.cpp" />
     <ClCompile Include="Renderer\Utils\Utils.cpp" />
     <ClCompile Include="Window.cpp" />

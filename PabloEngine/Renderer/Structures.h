@@ -13,9 +13,12 @@ struct ConfigInfo
 
 struct D3D12Global
 {
-	int width				= 1280;
-	int height				= 960;
-	bool vsync				= false;
+	IDXGIFactory4*			factory = nullptr;
+	IDXGIAdapter1*			adapter = nullptr;
+	ID3D12Device5*			device = nullptr;
 
+	int						width = 1280;
+	int						height = 960;
+	bool					vsync = false;
 };
 

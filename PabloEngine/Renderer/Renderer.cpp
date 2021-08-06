@@ -10,4 +10,6 @@ void Renderer::Init(ConfigInfo& info)
 	Utils::LoadModel("Models/cinema.obj", model, material);
 	
 	D3DShaders::Init_Shader_Compiler(shaderCompiler);
+
+	Device::Create_Device(d3d);
 }

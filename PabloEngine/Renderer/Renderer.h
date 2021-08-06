@@ -4,7 +4,9 @@
 
 #include "Structures.h"
 #include "Model.h"
+
 #include "D3DShaders.h"
+#include "Device.h"
 
 #pragma comment(lib, "d3dcompiler.lib")
 #pragma comment(lib, "D3D12.lib")
