@@ -7,6 +7,8 @@
 
 #include "D3DShaders.h"
 #include "Device.h"
+#include "CommandQueue.h"
+#include "CommandAllocator.h"
 
 #pragma comment(lib, "d3dcompiler.lib")
 #pragma comment(lib, "D3D12.lib")

@@ -4,6 +4,7 @@ namespace D3DShaders
 {
 	void Init_Shader_Compiler(D3D12ShaderCompilerInfo& shaderCompiler)
 	{
+		
 		HRESULT hr = shaderCompiler.DxcDllHelper.Initialize();
 		Utils::Validate(hr, L"Failed to initialize DxcDllSupport!");
 

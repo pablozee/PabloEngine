@@ -12,4 +12,9 @@ void Renderer::Init(ConfigInfo& info)
 	D3DShaders::Init_Shader_Compiler(shaderCompiler);
 
 	Device::Create_Device(d3d);
+
+	CommandQueue::Create_Command_Queue(d3d);
+
+	CommandAllocator::Create_Command_Allocator(d3d);
+
 }

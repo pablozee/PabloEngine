@@ -2,7 +2,8 @@
 #include "Events/Event.h"
 #include "Events/ApplicationEvent.h"
 #include "Window.h"
-
+#include "Renderer/Renderer.h"
+#include "Common.h"
 
 class Application
 {
@@ -25,6 +26,7 @@ private:
 
 	void CalculateFrameStats();
 
+	Renderer m_Renderer;
 	std::unique_ptr<Window> m_Window;
 	static Application* s_Instance;
 

@@ -12,6 +12,9 @@ Application::Application()
 
 	m_Window = std::unique_ptr<Window>(new Window());
 	m_Window->SetEventCallback(BIND_EVENT_FN(Application::OnEvent));
+
+	ConfigInfo config;
+	m_Renderer.Init(config);
 };
 
 Application::~Application()

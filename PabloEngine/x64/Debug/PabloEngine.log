@@ -1,2 +1,6 @@
-﻿  Renderer.cpp
+﻿  Application.cpp
+  D3DShaders.cpp
+  Renderer.cpp
+  WinMain.cpp
+  Generating Code...
   PabloEngine.vcxproj -> C:\dev\PabloEngine\x64\Debug\PabloEngine.exe
