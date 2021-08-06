@@ -90,6 +90,7 @@
       <ConformanceMode>false</ConformanceMode>
       <LanguageStandard>stdcpp17</LanguageStandard>
       <LanguageStandard_C>stdc17</LanguageStandard_C>
+      <AdditionalIncludeDirectories>$(SolutionDir)$(ProjectName)/Include; $(SolutionDir)$(ProjectName)/Include/ThirdParty;</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -106,6 +107,7 @@
       <ConformanceMode>false</ConformanceMode>
       <LanguageStandard>stdcpp17</LanguageStandard>
       <LanguageStandard_C>stdc17</LanguageStandard_C>
+      <AdditionalIncludeDirectories>$(SolutionDir)$(ProjectName)/Include; $(SolutionDir)$(ProjectName)/Include/ThirdParty;</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -122,6 +124,7 @@
       <ConformanceMode>false</ConformanceMode>
       <LanguageStandard>stdcpp17</LanguageStandard>
       <LanguageStandard_C>stdc17</LanguageStandard_C>
+      <AdditionalIncludeDirectories>$(SolutionDir)$(ProjectName)/Include; $(SolutionDir)$(ProjectName)/Include/ThirdParty;</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -138,6 +141,7 @@
       <ConformanceMode>false</ConformanceMode>
       <LanguageStandard>stdcpp17</LanguageStandard>
       <LanguageStandard_C>stdc17</LanguageStandard_C>
+      <AdditionalIncludeDirectories>$(SolutionDir)$(ProjectName)/Include; $(SolutionDir)$(ProjectName)/Include/ThirdParty;</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -152,12 +156,24 @@
     <ClInclude Include="Events\Event.h" />
     <ClInclude Include="Events\KeyEvent.h" />
     <ClInclude Include="Events\MouseEvent.h" />
+    <ClInclude Include="Include\Common.h" />
+    <ClInclude Include="Include\ThirdParty\dxc\dxcapi.h" />
+    <ClInclude Include="Include\ThirdParty\dxc\dxcapi.use.h" />
+    <ClInclude Include="Include\ThirdParty\tiny_obj_loader.h" />
     <ClInclude Include="Input.h" />
+    <ClInclude Include="Include\ThirdParty\d3dx12.h" />
+    <ClInclude Include="Renderer\D3DShaders.h" />
+    <ClInclude Include="Renderer\Model.h" />
+    <ClInclude Include="Renderer\Renderer.h" />
+    <ClInclude Include="Renderer\Structures.h" />
+    <ClInclude Include="Renderer\Utils\Utils.h" />
     <ClInclude Include="Window.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Application.cpp" />
     <ClCompile Include="Input.cpp" />
+    <ClCompile Include="Renderer\Renderer.cpp" />
+    <ClCompile Include="Renderer\Utils\Utils.cpp" />
     <ClCompile Include="Window.cpp" />
     <ClCompile Include="WinMain.cpp" />
   </ItemGroup>

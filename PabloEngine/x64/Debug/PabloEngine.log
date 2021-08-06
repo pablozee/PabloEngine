@@ -1,5 +1,4 @@
-﻿  Application.cpp
-  Window.cpp
-  WinMain.cpp
+﻿  Renderer.cpp
+  Utils.cpp
   Generating Code...
   PabloEngine.vcxproj -> C:\dev\PabloEngine\x64\Debug\PabloEngine.exe

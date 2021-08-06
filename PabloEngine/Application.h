@@ -25,7 +25,6 @@ private:
 
 	void CalculateFrameStats();
 
-	GameTimer m_Timer;
 	std::unique_ptr<Window> m_Window;
 	static Application* s_Instance;
 
