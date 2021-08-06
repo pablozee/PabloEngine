@@ -11,5 +11,5 @@ struct D3D12ShaderCompilerInfo
 
 namespace D3DShaders
 {
-
+	void Init_Shader_Compiler(D3D12ShaderCompilerInfo& shaderCompiler);
 }

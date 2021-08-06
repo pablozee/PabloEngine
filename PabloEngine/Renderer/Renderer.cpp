@@ -8,4 +8,6 @@ void Renderer::Init(ConfigInfo& info)
 	d3d.vsync = false;
 
 	Utils::LoadModel("Models/cinema.obj", model, material);
+	
+	D3DShaders::Init_Shader_Compiler(shaderCompiler);
 }

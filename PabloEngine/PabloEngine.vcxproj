@@ -90,7 +90,7 @@
       <ConformanceMode>false</ConformanceMode>
       <LanguageStandard>stdcpp17</LanguageStandard>
       <LanguageStandard_C>stdc17</LanguageStandard_C>
-      <AdditionalIncludeDirectories>$(SolutionDir)$(ProjectName)/Include; $(SolutionDir)$(ProjectName)/Include/ThirdParty;</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)$(ProjectName); $(SolutionDir)$(ProjectName)/Include; $(SolutionDir)$(ProjectName)/Include/ThirdParty;</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -107,7 +107,7 @@
       <ConformanceMode>false</ConformanceMode>
       <LanguageStandard>stdcpp17</LanguageStandard>
       <LanguageStandard_C>stdc17</LanguageStandard_C>
-      <AdditionalIncludeDirectories>$(SolutionDir)$(ProjectName)/Include; $(SolutionDir)$(ProjectName)/Include/ThirdParty;</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)$(ProjectName); $(SolutionDir)$(ProjectName)/Include; $(SolutionDir)$(ProjectName)/Include/ThirdParty;</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -124,7 +124,7 @@
       <ConformanceMode>false</ConformanceMode>
       <LanguageStandard>stdcpp17</LanguageStandard>
       <LanguageStandard_C>stdc17</LanguageStandard_C>
-      <AdditionalIncludeDirectories>$(SolutionDir)$(ProjectName)/Include; $(SolutionDir)$(ProjectName)/Include/ThirdParty;</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)$(ProjectName); $(SolutionDir)$(ProjectName)/Include; $(SolutionDir)$(ProjectName)/Include/ThirdParty;</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -141,7 +141,7 @@
       <ConformanceMode>false</ConformanceMode>
       <LanguageStandard>stdcpp17</LanguageStandard>
       <LanguageStandard_C>stdc17</LanguageStandard_C>
-      <AdditionalIncludeDirectories>$(SolutionDir)$(ProjectName)/Include; $(SolutionDir)$(ProjectName)/Include/ThirdParty;</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)$(ProjectName); $(SolutionDir)$(ProjectName)/Include; $(SolutionDir)$(ProjectName)/Include/ThirdParty;</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -172,6 +172,7 @@
   <ItemGroup>
     <ClCompile Include="Application.cpp" />
     <ClCompile Include="Input.cpp" />
+    <ClCompile Include="Renderer\D3DShaders.cpp" />
     <ClCompile Include="Renderer\Renderer.cpp" />
     <ClCompile Include="Renderer\Utils\Utils.cpp" />
     <ClCompile Include="Window.cpp" />

@@ -4,6 +4,7 @@
 
 #include "Structures.h"
 #include "Model.h"
+#include "D3DShaders.h"
 
 #pragma comment(lib, "d3dcompiler.lib")
 #pragma comment(lib, "D3D12.lib")
@@ -40,5 +41,5 @@ protected:
 //	DXRGlobal dxr = {};
 	D3D12Global d3d = {};
 //	D3D12Resources resources = {};
-//	D3D12ShaderCompilerInfo shaderCompiler;
+	D3D12ShaderCompilerInfo shaderCompiler;
 };
