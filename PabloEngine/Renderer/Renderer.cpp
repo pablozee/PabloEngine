@@ -17,4 +17,6 @@ void Renderer::Init(ConfigInfo& info)
 
 	CommandAllocator::Create_Command_Allocator(d3d);
 
+	Fence::Create_Fence(d3d);
+
 }
