@@ -78,6 +78,12 @@ void Window::Init(const WindowProps& props)
 	HCURSOR cursor = LoadCursor(0, IDC_ARROW);
 	SetCursor(cursor);
 
+	ConfigInfo config;
+
+	m_Renderer = new Renderer();
+
+	m_Renderer->Init(config, m_Hwnd);
+
 	SetVSync(true);
 }
 

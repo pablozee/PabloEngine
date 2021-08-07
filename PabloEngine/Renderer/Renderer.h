@@ -10,6 +10,7 @@
 #include "CommandQueue.h"
 #include "CommandAllocator.h"
 #include "Fence.h"
+#include "SwapChain.h"
 
 #pragma comment(lib, "d3dcompiler.lib")
 #pragma comment(lib, "D3D12.lib")
@@ -28,7 +29,7 @@ public:
 	~Renderer()
 	{}
 
-	void Init(ConfigInfo& config);
+	void Init(ConfigInfo& config, HWND window);
 
 	void Update();
 

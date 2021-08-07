@@ -20,6 +20,9 @@ struct D3D12Global
 	ID3D12GraphicsCommandList4*		commandList = nullptr;
 	ID3D12CommandQueue*				commandQueue = nullptr;
 	ID3D12CommandAllocator*			commandAllocator[2] = { nullptr, nullptr };
+
+	IDXGISwapChain3*				swapChain = nullptr;
+	ID3D12Resource*					backBuffer[2] = { nullptr, nullptr };
 	
 	ID3D12Fence*					fence = nullptr;
 	UINT64							fenceValues[2] = { 0, 0 };

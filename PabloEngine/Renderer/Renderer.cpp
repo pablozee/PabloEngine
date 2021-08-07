@@ -1,7 +1,7 @@
 #include "Renderer.h"
 #include "Utils/Utils.h"
 
-void Renderer::Init(ConfigInfo& info)
+void Renderer::Init(ConfigInfo& info, HWND window)
 {
 	d3d.width = 1280;
 	d3d.height = 960;
@@ -18,5 +18,7 @@ void Renderer::Init(ConfigInfo& info)
 	CommandAllocator::Create_Command_Allocator(d3d);
 
 	Fence::Create_Fence(d3d);
+
+	SwapChain::Create_SwapChain(d3d, window);
 
 }
