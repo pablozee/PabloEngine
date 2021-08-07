@@ -34,3 +34,9 @@ struct D3D12Global
 	bool							vsync = false;
 };
 
+struct D3D12Resources
+{
+	ID3D12DescriptorHeap*			rtvHeap = nullptr;
+
+	UINT							rtvDescSize = 0;
+};

@@ -23,4 +23,7 @@ void Renderer::Init(ConfigInfo& info, HWND window)
 	CommandList::Create_Command_List(d3d);
 	CommandList::Reset_Command_List(d3d);
 
+	RTVDescriptorHeaps::Create_RTV_Descriptor_Heaps(d3d, resources);
+	BackBufferRTV::Create_BackBuffer_RTV(d3d, resources);
+
 }

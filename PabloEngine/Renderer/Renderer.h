@@ -12,6 +12,8 @@
 #include "Fence.h"
 #include "SwapChain.h"
 #include "CommandList.h"
+#include "RTVDescriptorHeap.h"
+#include "BackBufferRTV.h"
 
 #pragma comment(lib, "d3dcompiler.lib")
 #pragma comment(lib, "D3D12.lib")
@@ -47,6 +49,6 @@ protected:
 
 //	DXRGlobal dxr = {};
 	D3D12Global d3d = {};
-//	D3D12Resources resources = {};
+	D3D12Resources resources = {};
 	D3D12ShaderCompilerInfo shaderCompiler;
 };
