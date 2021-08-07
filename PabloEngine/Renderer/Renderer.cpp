@@ -14,11 +14,13 @@ void Renderer::Init(ConfigInfo& info, HWND window)
 	Device::Create_Device(d3d);
 
 	CommandQueue::Create_Command_Queue(d3d);
-
 	CommandAllocator::Create_Command_Allocator(d3d);
 
 	Fence::Create_Fence(d3d);
 
 	SwapChain::Create_SwapChain(d3d, window);
+
+	CommandList::Create_Command_List(d3d);
+	CommandList::Reset_Command_List(d3d);
 
 }

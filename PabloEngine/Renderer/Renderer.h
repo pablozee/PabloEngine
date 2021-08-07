@@ -11,6 +11,7 @@
 #include "CommandAllocator.h"
 #include "Fence.h"
 #include "SwapChain.h"
+#include "CommandList.h"
 
 #pragma comment(lib, "d3dcompiler.lib")
 #pragma comment(lib, "D3D12.lib")
