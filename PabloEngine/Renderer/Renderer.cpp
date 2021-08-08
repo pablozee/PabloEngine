@@ -26,4 +26,8 @@ void Renderer::Init(ConfigInfo& info, HWND window)
 	RTVDescriptorHeaps::Create_RTV_Descriptor_Heaps(d3d, resources);
 	BackBufferRTV::Create_BackBuffer_RTV(d3d, resources);
 
+	VertexBuffer::Create_Vertex_Buffer(d3d, resources, model);
+	IndexBuffer::Create_Index_Buffer(d3d, resources, model);
+
+
 }

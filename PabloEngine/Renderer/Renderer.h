@@ -14,6 +14,8 @@
 #include "CommandList.h"
 #include "RTVDescriptorHeap.h"
 #include "BackBufferRTV.h"
+#include "VertexBuffer.h"
+#include "IndexBuffer.h"
 
 #pragma comment(lib, "d3dcompiler.lib")
 #pragma comment(lib, "D3D12.lib")

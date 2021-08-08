@@ -163,38 +163,47 @@
     <ClInclude Include="Include\Common.h" />
     <ClInclude Include="Include\ThirdParty\dxc\dxcapi.h" />
     <ClInclude Include="Include\ThirdParty\dxc\dxcapi.use.h" />
+    <ClInclude Include="Include\ThirdParty\stb_image.h" />
     <ClInclude Include="Include\ThirdParty\tiny_obj_loader.h" />
     <ClInclude Include="Input.h" />
     <ClInclude Include="Include\ThirdParty\d3dx12.h" />
     <ClInclude Include="Renderer\BackBufferRTV.h" />
+    <ClInclude Include="Renderer\Buffer.h" />
     <ClInclude Include="Renderer\CommandAllocator.h" />
     <ClInclude Include="Renderer\CommandList.h" />
     <ClInclude Include="Renderer\CommandQueue.h" />
     <ClInclude Include="Renderer\D3DShaders.h" />
     <ClInclude Include="Renderer\Device.h" />
     <ClInclude Include="Renderer\Fence.h" />
+    <ClInclude Include="Renderer\IndexBuffer.h" />
     <ClInclude Include="Renderer\Model.h" />
     <ClInclude Include="Renderer\Renderer.h" />
     <ClInclude Include="Renderer\RTVDescriptorHeap.h" />
     <ClInclude Include="Renderer\Structures.h" />
     <ClInclude Include="Renderer\SwapChain.h" />
+    <ClInclude Include="Renderer\Texture.h" />
     <ClInclude Include="Renderer\Utils\Utils.h" />
+    <ClInclude Include="Renderer\VertexBuffer.h" />
     <ClInclude Include="Window.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Application.cpp" />
     <ClCompile Include="Input.cpp" />
     <ClCompile Include="Renderer\BackBufferRTV.cpp" />
+    <ClCompile Include="Renderer\Buffer.cpp" />
     <ClCompile Include="Renderer\CommandAllocator.cpp" />
     <ClCompile Include="Renderer\CommandList.cpp" />
     <ClCompile Include="Renderer\CommandQueue.cpp" />
     <ClCompile Include="Renderer\D3DShaders.cpp" />
     <ClCompile Include="Renderer\Device.cpp" />
     <ClCompile Include="Renderer\Fence.cpp" />
+    <ClCompile Include="Renderer\IndexBuffer.cpp" />
     <ClCompile Include="Renderer\Renderer.cpp" />
     <ClCompile Include="Renderer\RTVDescriptorHeap.cpp" />
     <ClCompile Include="Renderer\SwapChain.cpp" />
+    <ClCompile Include="Renderer\Texture.cpp" />
     <ClCompile Include="Renderer\Utils\Utils.cpp" />
+    <ClCompile Include="Renderer\VertexBuffer.cpp" />
     <ClCompile Include="Window.cpp" />
     <ClCompile Include="WinMain.cpp" />
   </ItemGroup>

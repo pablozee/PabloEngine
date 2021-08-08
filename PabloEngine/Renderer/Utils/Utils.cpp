@@ -1,5 +1,8 @@
 #include "Utils.h"
 
+#define STB_IMAGE_IMPLEMENTATION
+#include <stb_image.h>
+
 #define TINYOBJLOADER_IMPLEMENTATION
 #include <tiny_obj_loader.h>
 
@@ -94,4 +97,49 @@ namespace Utils
 		}
 	}
 
+	
+	/**
+	* Format the loaded texture into the layout we use with D3D12.
+	
+	void FormatTexture(Texture::TextureInfo& info, UINT8* pixels)
+	{
+		const UINT numPixels = (info.width * info.height);
+		const UINT oldStride = info.stride;
+		const UINT oldSize = (numPixels * info.stride);
+
+		const UINT newStride = 4;				// uploading textures to GPU as DXGI_FORMAT_R8G8B8A8_UNORM
+		const UINT newSize = (numPixels * newStride);
+		info.pixels.resize(newSize);
+
+		for (UINT i = 0; i < numPixels; i++)
+		{
+			info.pixels[i * newStride] = pixels[i * oldStride];		// R
+			info.pixels[i * newStride + 1] = pixels[i * oldStride + 1];	// G
+			info.pixels[i * newStride + 2] = pixels[i * oldStride + 2];	// B
+			info.pixels[i * newStride + 3] = 0xFF;							// A (always 1)
+		}
+
+		info.stride = newStride;
+	}
+
+
+	/**
+	* Load an image
+	
+	Texture::TextureInfo LoadTexture(string filepath)
+	{
+		Texture::TextureInfo result = {};
+
+		// Load image pixels with stb_image
+		UINT8* pixels = stbi_load(filepath.c_str(), &result.width, &result.height, &result.stride, STBI_default);
+		if (!pixels)
+		{
+			throw runtime_error("Error: failed to load image!");
+		}
+
+		FormatTexture(result, pixels);
+		stbi_image_free(pixels);
+		return result;
+	}
+	*/
 }

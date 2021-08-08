@@ -1,6 +1,19 @@
 ﻿  Application.cpp
   BackBufferRTV.cpp
+  Buffer.cpp
+  CommandAllocator.cpp
+  CommandList.cpp
+  CommandQueue.cpp
+  D3DShaders.cpp
+  Device.cpp
+  Fence.cpp
+  IndexBuffer.cpp
   Renderer.cpp
+  RTVDescriptorHeap.cpp
+  SwapChain.cpp
+  Texture.cpp
+  Utils.cpp
+  VertexBuffer.cpp
   Window.cpp
   WinMain.cpp
   Generating Code...
